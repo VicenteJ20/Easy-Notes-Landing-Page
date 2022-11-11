@@ -1,5 +1,6 @@
 import { NavLink } from './NavLink'
 import { useState } from 'react'
+import '../styles/Navbar.css'
 
 export function Navbar () {
   const [active, setActive] = useState(false)

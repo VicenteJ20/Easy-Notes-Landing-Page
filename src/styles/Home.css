@@ -1,0 +1,70 @@
+.Home{
+  min-height: 80vh;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.right-div > img{
+  max-width: 80%;
+}
+
+.left-div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.left-div > h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.color-highlight{
+  color: var(--standard-yellow);
+}
+
+.login-home-button{
+  max-width: 25%;
+  min-width: 5rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: var(--standard-black);
+  border-radius: 1.5rem;
+  transition: 0.7s all;
+  text-align: center;
+}
+
+.login-home-button > a{
+  color: var(--standard-white);
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-home-button:hover{
+  background-color: var(--standard-yellow);
+}
+
+.subtitle{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--grey-text);
+}
+
+@media only screen and (max-width: 1100px){
+  .left-div > h1{
+    font-size: 2rem;
+  }
+  .subtitle{
+    font-size: 1rem;
+  }
+}
