@@ -1,5 +1,5 @@
 .Home{
-  min-height: 80vh;
+  min-height: 100vh;
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);

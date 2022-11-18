@@ -21,11 +21,11 @@ export function Navbar () {
       </button>
       <nav className={`navtag ${active ? 'isActive' : ''}`}>
         <ul className='nav-ul'>
-          <li className='nav-item' onClick={setupMenu}><NavLink to='/About'>Sobre mí</NavLink></li>
-          <li className='nav-item' onClick={setupMenu}><NavLink to='/Projects'>Proyectos</NavLink></li>
-          <li className='nav-item' onClick={setupMenu}><NavLink to='/Hobbies'>Hobbies</NavLink></li>
+          <li className='nav-item' onClick={setupMenu}><NavLink to='/Features'>Características</NavLink></li>
+          <li className='nav-item' onClick={setupMenu}><NavLink to='/Prices'>Precios</NavLink></li>
+          <li className='nav-item' onClick={setupMenu}><NavLink to='/About'>Acerca de</NavLink></li>
           <li className='contact-button-li' onClick={setupMenu}>
-            <NavLink to='/Contact'>Contacto</NavLink>
+            <NavLink to='/signUp'>Registrarse</NavLink>
           </li>
         </ul>
       </nav>

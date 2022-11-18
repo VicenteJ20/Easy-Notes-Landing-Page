@@ -1,0 +1,18 @@
+.GenericHeader{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.GenericHeader > h2{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.GenericHeader > p{
+  max-width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
