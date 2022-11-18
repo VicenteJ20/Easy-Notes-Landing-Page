@@ -68,3 +68,19 @@
     font-size: 1rem;
   }
 }
+
+@media only screen and (max-width: 650px){
+  .Home{
+    grid-template-columns: 1fr;
+  }
+
+  .right-div{
+    grid-area: 1;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .login-home-button{
+    max-width: 40%;
+  }
+}
